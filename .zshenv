@@ -10,5 +10,14 @@ function mkcd() {
 # ALIASES
 #-----------
 
-alias versions="NODE --> $(node -v) \nNPM --> $(npm -v) \nTERRAFORM --> $(terraform -v | head -n 1)"
 alias tf='terraform'
+
+#----------------------
+# GIT ALIASES
+#----------------------
+alias gaa='git add .'
+alias gcm='git commit -m'
+alias gi='git init'
+alias gl='git log --oneline --graph'
+alias gp='git pull'
+alias gpsh='git push'
